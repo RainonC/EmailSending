@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
   mail-on-push: 
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
